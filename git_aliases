@@ -1,0 +1,20 @@
+alias cp="cp -i"                          # confirm before overwriting something
+alias df='df -h'                          # human-readable sizes
+alias free='free -m'                      # show sizes in MB
+alias np='nano -w PKGBUILD'
+alias more=less
+alias ll="ls -la"
+alias vv="vifm . -c sync"
+alias pmd="$HOME/software/pmd-bin-6.18.0/bin/run.sh pmd"
+
+
+alias gits='git status -s'
+alias gitb='git branch | grep \*'
+alias gitss="git status --porcelain | sed -e 's/.../\//' | xargs -L1 echo $(git rev-parse --show-toplevel)/ | sed -e 's/\/ \//\//'"
+alias mc='. /usr/share/mc/bin/mc-wrapper.sh'
+function gitco(){ git checkout $1; git pull origin $1; };
+function gitnb(){ git checkout -b $1; git push --set-upstream origin $1; };
+
+# Prevent that crappy SHIFT NUMLOCK issue
+setxkbmap -option 'numpad:microsoft'
+

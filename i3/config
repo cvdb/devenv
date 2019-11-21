@@ -27,8 +27,7 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminal
-# trap 'echo -ne "\e]0;window-title-here\007"' DEBUG
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -40,7 +39,7 @@ bindsym $mod+d exec --no-startup-id dmenu_recency
 bindsym $mod+z exec --no-startup-id morc_menu
 
 # start goto project launcher
-bindsym $mod+p exec /usr/bin/gotorepo 
+bindsym $mod+p exec /usr/local/bin/gotorepo 
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
@@ -60,7 +59,7 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec palemoon
+bindsym $mod+F2 exec google-chrome-stable
 bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm

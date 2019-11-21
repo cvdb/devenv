@@ -24,7 +24,7 @@ autocmd BufWritePre *.js :normal gg=G
 autocmd BufWritePre *.ts :normal gg=G
 
 let g:deoplete#enable_at_startup = 1
-
+"ddddddd"
 let mapleader = "\<Space>"
 nnoremap x "_x
 nnoremap d "_d
@@ -66,7 +66,6 @@ highlight SignColumn ctermbg=236
 call plug#begin()
 
 Plug 'https://github.com/pangloss/vim-javascript.git'
-Plug 'elzr/vim-json'
 Plug 'Chiel92/vim-autoformat'
 Plug 'leafgarland/typescript-vim'
 Plug 'airblade/vim-gitgutter'
