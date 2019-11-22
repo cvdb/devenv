@@ -1,0 +1,17 @@
+#!/bin/bash
+
+declare -A gitdic
+dirlist=()
+
+while IFS= read -d $'\0' -r file ; do
+   dir=$(basename "$(dirname "$file")")
+   gitdic["$dir"]="$(dirname "$file")"
+   dirlist+="$dir\n"
+done < <(find /home/cvdb/projects 2>/dev/null -maxdepth 4 -type d -name .git -print0)
+
+choice=$(echo -e "$dirlist" | rofi -dmenu)
+export NO_AT_BRIDGE=1
+
+[[ ! -z "$choice" ]] && urxvt -e /bin/sh -c "cd ${gitdic["$choice"]} && /bin/bash"
+
+

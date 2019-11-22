@@ -1,0 +1,708 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/cvdb/
+	..
+1561338962
+'b
+	/home/cvdb/bin/
+	..
+1561338962
+'h
+	/home/cvdb/
+	..
+1561338962
+
+# Bookmarks:
+b/home/cvdb/Work/Projects/endpoints/pd/billing/endpoints/
+	billing-endpoints
+	1561685435
+b/home/cvdb/Work/Projects/web/applications/billing-webapp/
+	web
+	1561685435
+b/home/cvdb/Work/Projects/web/pd/billing/angular/app/services/
+	billing-services
+	1561685435
+b/home/cvdb/Stuff/paycorp_lk/hnb-cartridge/
+	hnb-cartridge
+	1561685435
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/cvdb/.config
+	vifm
+24
+d/home/cvdb
+	.config
+2
+d/home
+	cvdb
+1
+d/
+	usr
+17
+d/usr
+	local
+6
+d/usr/local
+	bin
+1
+d/usr/local/bin
+	gotorepo
+1
+d/home/cvdb/.config
+	vifm
+25
+d/home/cvdb
+	.vifm
+16
+d/home/cvdb/.vifm
+	colors
+1
+d/home/cvdb/.vifm/colors
+	solarized-dark.vifm
+1
+d/home/cvdb
+	..
+0
+d/home/cvdb/projects/paycorp/sampath-cartridge
+	src
+5
+d/home/cvdb/projects/paycorp/sampath-cartridge/src
+	main
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main
+	java
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java
+	au
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au
+	com
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com
+	paycorp
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp
+	smp
+2
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp
+	as2805
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805
+	message
+5
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805/message
+	smp
+2
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805/message/smp
+	Posentrymode.java
+11
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805/message
+	base
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805/message/base
+	Eci.java
+5
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805/message
+	base
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805/message/base
+	Eci.java
+5
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805/message
+	base
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp/as2805
+	message
+5
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp/smp
+	as2805
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com/paycorp
+	smp
+2
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au/com
+	paycorp
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java/au
+	com
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main/java
+	au
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src/main
+	java
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge/src
+	main
+1
+d/home/cvdb/projects/paycorp/sampath-cartridge
+	.gitignore
+7
+d/home/cvdb/projects/paycorp
+	s3_sync
+38
+d/home/cvdb/projects/paycorp/s3_sync
+	smp-cartridge
+17
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge
+	smp-cartridge-lib.zip
+2
+d/home/cvdb/projects/paycorp/s3_sync
+	smp-cartridge
+17
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge
+	lib
+1
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge/lib
+	paycorp-cartridge-container-1.0.030.jar
+1
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge
+	smp-cartridge-lib.zip
+2
+d/home/cvdb/projects/paycorp/s3_sync
+	cbc-cartridge
+3
+d/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge
+	..
+0
+d/home/cvdb/projects/paycorp/s3_sync
+	cbc-cartridge
+3
+d/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge
+	lib
+1
+d/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge/lib
+	paycorp-cartridge-container-1.0.030.jar
+2
+d/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge
+	cbc-cartridge-docs.zip
+1
+d/home/cvdb/projects/paycorp/s3_sync
+	cbc-cartridge
+3
+d/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge
+	cbc-cartridge-lib.zip
+2
+d/home/cvdb/projects/paycorp/s3_sync
+	smp-cartridge
+17
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge
+	smp-cartridge-lib.zip
+2
+d/home/cvdb/projects/paycorp/s3_sync
+	cbc-cartridge
+3
+d/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge
+	lib
+1
+d/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge/lib
+	paycorp-cartridge-container-1.0.030.jar
+2
+d/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge
+	cbc-cartridge-lib.zip
+2
+d/home/cvdb/projects/paycorp/s3_sync
+	smp-cartridge
+17
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge
+	lib
+1
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge/lib
+	paycorp-cartridge-container-1.0.030.jar
+1
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge
+	smp-cartridge-lib.zip
+2
+d/home/cvdb/projects/paycorp/s3_sync
+	smp-cartridge
+17
+d/home/cvdb/projects/paycorp/s3_sync/smp-cartridge
+	smp-cartridge-lib.zip
+2
+d/home/cvdb/projects/paycorp/s3_sync
+	smp-cartridge
+17
+d/home/cvdb/projects/paycorp
+	pyclk-containers
+34
+d/home/cvdb/projects/paycorp/pyclk-containers
+	smp_cartridge
+17
+d/home/cvdb/projects/paycorp/pyclk-containers/smp_cartridge
+	Dockerfile
+3
+d/home/cvdb/projects/paycorp/pyclk-containers
+	cbc_cartridge
+2
+d/home/cvdb/projects/paycorp/pyclk-containers/cbc_cartridge
+	Dockerfile
+3
+d/home/cvdb/projects/paycorp/pyclk-containers
+	smp_cartridge
+17
+d/home/cvdb/projects/paycorp/pyclk-containers/smp_cartridge
+	Dockerfile
+3
+d/home/cvdb/projects/paycorp/pyclk-containers
+	smp_cartridge
+17
+d/home/cvdb/projects/paycorp/pyclk-containers/smp_cartridge
+	run.sh
+5
+d/home/cvdb/projects/paycorp/pyclk-containers
+	smp_ppe_engine
+20
+d/home/cvdb/projects/paycorp/pyclk-containers/smp_ppe_engine
+	run.sh
+5
+d/home/cvdb/projects/paycorp/pyclk-containers
+	smp_ppe_engine
+20
+d/home/cvdb/projects/paycorp
+	cbc-cartridge
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge
+	src
+5
+d/home/cvdb/projects/paycorp/cbc-cartridge/src
+	main
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main
+	java
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java
+	au
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au
+	com
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com
+	paycorp
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp
+	cbc
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp/cbc
+	as2805
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp/cbc/as2805
+	comm
+2
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp/cbc/as2805/comm
+	cbc
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp/cbc/as2805/comm/cbc
+	CbcCommHandler.java
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp/cbc/as2805/comm
+	cbc
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp/cbc/as2805
+	comm
+2
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp/cbc
+	as2805
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com/paycorp
+	cbc
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au/com
+	paycorp
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java/au
+	com
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main/java
+	au
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src/main
+	java
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge/src
+	main
+1
+d/home/cvdb/projects/paycorp/cbc-cartridge
+	dist
+2
+d/home/cvdb/projects/paycorp/cbc-cartridge/dist
+	cbc-cartridge-1.0.084.jar
+3
+d
+
+# Right window history (oldest to newest):
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/as2805/message
+	smp
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/as2805/message/smp
+	util
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/as2805/message/smp/util
+	..
+0
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/as2805/message/smp
+	util
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/as2805/message
+	smp
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/as2805
+	message
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp
+	integration
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/integration
+	message
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/integration/message
+	translation
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/integration/message/translation
+	PurchaseMessageTest.java
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/integration/message
+	translation
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp/integration
+	message
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp/smp
+	integration
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com/paycorp
+	smp
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au/com
+	paycorp
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java/au
+	com
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test/java
+	au
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src/test
+	java
+1
+D/home/cvdb/projects/paycorp/sampath-cartridge/src
+	test
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge
+	src
+5
+D/home/cvdb/projects/paycorp
+	paycorp-payment-engine
+19
+D/home/cvdb/projects/paycorp/paycorp-payment-engine
+	pom.xml
+11
+D/home/cvdb/projects/paycorp
+	pyclk-containers
+34
+D/home/cvdb/projects/paycorp/pyclk-containers
+	smp_cartridge
+17
+D/home/cvdb/projects/paycorp
+	pyclk-containers
+34
+D/home/cvdb/projects/paycorp/pyclk-containers
+	smp_cartridge
+17
+D/home/cvdb/projects/paycorp/pyclk-containers/smp_cartridge
+	Dockerfile
+3
+D/home/cvdb/projects/paycorp/pyclk-containers
+	smp_cartridge
+17
+D/home/cvdb/projects/paycorp/pyclk-containers/smp_cartridge
+	Dockerfile
+3
+D/home/cvdb/projects/paycorp/pyclk-containers
+	smp_cartridge
+17
+D/home/cvdb/projects/paycorp
+	pyclk-containers
+34
+D/home/cvdb/projects
+	paycorp
+3
+D/home/cvdb
+	projects
+24
+D/home
+	cvdb
+1
+D/
+	run
+12
+D/run
+	media
+11
+D/run/media
+	cvdb
+1
+D/run/media/cvdb
+	..
+0
+D/run/media
+	cvdb
+1
+D/run/media/cvdb
+	..
+0
+D/run/media
+	cvdb
+1
+D/run
+	media
+11
+D/run/media
+	cvdb
+1
+D/run/media/cvdb
+	..
+0
+D/run/media
+	cvdb
+1
+D/run
+	media
+11
+D/
+	run
+12
+D/run
+	mount
+12
+D/run/mount
+	..
+0
+D/run
+	media
+11
+D/run/media
+	cvdb
+1
+D/run/media/cvdb
+	..
+0
+D/run/media
+	cvdb
+1
+D/run
+	media
+11
+D/
+	home
+4
+D/home
+	cvdb
+1
+D/home/cvdb
+	projects
+25
+D/home/cvdb/projects
+	paycorp
+3
+D/home/cvdb/projects/paycorp
+	vpn
+43
+D/home/cvdb/projects/paycorp/vpn
+	..
+0
+D/home/cvdb/projects/paycorp
+	vpn
+43
+D/home/cvdb/projects
+	paycorp
+3
+D/home/cvdb
+	.config
+3
+D/home/cvdb/.config
+	vifm
+25
+D/home/cvdb/.config/vifm
+	vifmrc
+5
+D/home/cvdb/.config
+	vifm
+25
+D/home/cvdb
+	projects
+25
+D/home/cvdb/projects
+	paycorp
+3
+D/home/cvdb/projects/paycorp
+	sampath-cartridge
+40
+D/home/cvdb/projects/paycorp/sampath-cartridge
+	dist
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge/dist
+	sampath-cartridge-1.0.040.jar
+4
+D/home/cvdb/projects/paycorp/sampath-cartridge
+	dist
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge/dist
+	sampath-cartridge-1.0.041.jar
+4
+D/home/cvdb/projects/paycorp/sampath-cartridge
+	dist
+2
+D/home/cvdb/projects/paycorp
+	cbc-cartridge
+1
+D/home/cvdb/projects/paycorp/cbc-cartridge
+	pom.xml
+10
+D/home/cvdb/projects/paycorp
+	pyclk-containers
+34
+D/home/cvdb/projects/paycorp/pyclk-containers
+	cbc_cartridge
+2
+D/home/cvdb/projects/paycorp/pyclk-containers/cbc_cartridge
+	Dockerfile
+3
+D/home/cvdb/projects/paycorp/pyclk-containers
+	cbc_cartridge
+2
+D/home/cvdb/projects/paycorp/pyclk-containers/cbc_cartridge
+	Dockerfile
+3
+D/home/cvdb/projects/paycorp/pyclk-containers
+	cbc_cartridge
+2
+D/home/cvdb/projects/paycorp
+	cbc-cartridge
+1
+D/home/cvdb/projects/paycorp/cbc-cartridge
+	dist
+2
+D/home/cvdb/projects/paycorp/cbc-cartridge/dist
+	cbc-cartridge-1.0.085.jar
+3
+D/home/cvdb/projects/paycorp/cbc-cartridge
+	dist
+2
+D/home/cvdb/projects/paycorp
+	sampath-cartridge
+40
+D/home/cvdb/projects/paycorp/sampath-cartridge
+	dist
+2
+D/home/cvdb/projects/paycorp/sampath-cartridge/dist
+	..
+0
+D/home/cvdb/projects/paycorp/pyclk-containers
+	cbc_cartridge
+2
+D/home/cvdb/projects/paycorp
+	s3_sync
+38
+D/home/cvdb/projects/paycorp/s3_sync
+	cbc-cartridge
+3
+D/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge
+	lib
+1
+D/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge/lib
+	paycorp-cartridge-container-1.0.030.jar
+2
+D/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge
+	cbc-cartridge-lib.zip
+2
+D/home/cvdb/projects/paycorp/s3_sync
+	cbc-cartridge
+3
+D/home/cvdb/projects/paycorp
+	s3_sync
+38
+D/home/cvdb/projects
+	paycorp
+3
+D/home/cvdb/projects/paycorp
+	cbc-cartridge
+1
+D/home/cvdb/projects/paycorp/cbc-cartridge
+	replace_master_with_fix_voids
+11
+D
+
+# Command line history (oldest to newest):
+:mkdir nvim
+:touch init.vim
+:mkdir colors
+:touch 
+:mkdir termite
+:touch config
+:view
+:mkdir projects
+:mkdir paycorp
+:q
+:sync
+:colorscheme Default
+:colorscheme solarized-dark
+:colorscheme zenburn_1
+:colorscheme darkdesert
+:colorscheme semidarkdesert
+:colorscheme desert
+:unzip
+:zip
+
+# Search history (oldest to newest):
+/envi
+
+# Prompt history (oldest to newest):
+psmp-cartridge-lib.zip
+pcbc-cartridge-lib.zip
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/cvdb/.local/share/vifm/Trash/002_cbc-cartridge-lib.zip
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/cvdb/.local/share/vifm/Trash/000_sampath-cartridge-1.0.040.jar
+	/home/cvdb/projects/paycorp/s3_sync/smp-cartridge/lib/sampath-cartridge-1.0.040.jar
+t/home/cvdb/.local/share/vifm/Trash/000_lib
+	/home/cvdb/projects/paycorp/s3_sync/smp-cartridge/lib
+t/home/cvdb/.local/share/vifm/Trash/000_smp-cartridge-lib.zip
+	/home/cvdb/projects/paycorp/s3_sync/smp-cartridge/smp-cartridge-lib.zip
+t/home/cvdb/.local/share/vifm/Trash/000_cbc-cartridge-1.0.085.jar
+	/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge/lib/cbc-cartridge-1.0.085.jar
+t/home/cvdb/.local/share/vifm/Trash/001_lib
+	/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge/lib
+t/home/cvdb/.local/share/vifm/Trash/000_cbc-cartridge-lib.zip
+	/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge/cbc-cartridge-lib.zip
+t/home/cvdb/.local/share/vifm/Trash/000_cbc-ppe-engine-lib.zip
+	/home/cvdb/projects/paycorp/s3_sync/cbc-cartridge/cbc-ppe-engine-lib.zip
+t/home/cvdb/.local/share/vifm/Trash/000_sampath-cartridge-1.0.041.jar
+	/home/cvdb/projects/paycorp/s3_sync/smp-cartridge/lib/sampath-cartridge-1.0.041.jar
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
