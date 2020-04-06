@@ -1,60 +1,44 @@
-vnoremap . :norm.<CR>
-vmap <C-w> :normal @w<CR>
-nnoremap n nzz
-nnoremap N Nzz
-set hlsearch
-set incsearch
-set relativenumber
-set cursorline
-set guicursor=
-set foldenable                                      "enable folds by default
-set foldmethod=syntax                               "fold via syntax of files
-set foldlevelstart=99                               "open all folds by default
-let g:xml_syntax_folding=1                          "enable xml folding
-set number
-set scrolloff=15
-syntax on
-set background=dark
+" Specify a directory for plugins.
+call plug#begin(stdpath('data') . '/plugged')
+
+" Specify your required plugins here.
+Plug 'liuchengxu/vim-better-default'
+Plug 'easymotion/vim-easymotion'
+Plug 'Shougo/deoplete.nvim'
+Plug 'ncm2/float-preview.nvim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'matze/vim-move'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-commentary'
+Plug 'w0rp/ale'
+Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
+Plug 'Olical/conjure', { 'tag': 'v2.1.2', 'do': 'bin/compile' }
+
+" Initialize plugin system.
+call plug#end()
+
+" Place configuration AFTER `call plug#end()`!
+let mapleader = "\<Space>"
+let g:deoplete#enable_at_startup = 1
+call deoplete#custom#option('keyword_patterns', {'clojure': '[\w!$%&*+/:<=>?@\^_~\-\.#]*'})
+set completeopt-=preview
+let g:float_preview#docked = 0
+let g:float_preview#max_width = 80
+let g:float_preview#max_height = 40
+
+"-- themes
 colorscheme PaperColor 
 let g:airline_theme = 'term'
 let g:airline#extensions#tabline#enabled = 1 	   " Enable the list of buffers
 let g:airline#extensions#tabline#fnamemod = ':t'   " Show just the filename 
-
-autocmd BufWritePre *.js :normal gg=G
-autocmd BufWritePre *.ts :normal gg=G
-
-let g:deoplete#enable_at_startup = 1
-"ddddddd"
-let mapleader = "\<Space>"
-nnoremap x "_x
-nnoremap d "_d
-nnoremap D "_D
-vnoremap d "_d
-nnoremap <leader>d ""d
-nnoremap <leader>D ""D
-vnoremap <leader>d ""d
-
-let g:autoformat_autoindent = 0
-let g:autoformat_retab = 0
-let g:autoformat_remove_trailing_spaces = 0
-set expandtab
-set shiftwidth=2
-set softtabstop=2
-
-" let g:ale_linters = { 'java': [], }
-
-"-- snipts settings
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-let g:UltiSnipsEditSplit="vertical"
-
 highlight Search     cterm=bold ctermfg=208 ctermbg=234 guifg=Blue guibg=Yellow cterm=underline
 highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
 highlight DiffDelete cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
 highlight DiffChange cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
 highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red
-
 highlight ALEError ctermbg=240
 highlight ALEWarning ctermbg=234
 highlight ALEErrorSign ctermfg=124 ctermbg=240
@@ -63,42 +47,18 @@ highlight ALEWarningSign ctermfg=130 ctermbg=236
 let g:gitgutter_override_sign_column_highlight = 0
 highlight SignColumn ctermbg=236
 
-call plug#begin()
+"-- snipts settings
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
 
-Plug 'https://github.com/pangloss/vim-javascript.git'
-Plug 'Chiel92/vim-autoformat'
-Plug 'leafgarland/typescript-vim'
-Plug 'airblade/vim-gitgutter'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'tpope/vim-fugitive'
-Plug 'matze/vim-move'
-Plug 'tomasr/molokai'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
-Plug 'chrisbra/NrrwRgn'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-repeat'
-Plug 'trevordmiller/nova-vim'
-Plug 'tmhedberg/matchit'
-Plug 'easymotion/vim-easymotion'
-Plug 'gnattishness/cscope_maps'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-" Plug 'autozimu/LanguageClient-neovim', {
-"     \ 'branch': 'next',
-"     \ 'do': 'bash install.sh',
-"     \ }
-" Plug 'artur-shaik/vim-javacomplete2'
+"-- ALE
+let g:ale_linters = {
+      \ 'clojure': ['clj-kondo', 'joker']
+      \}
 
-call plug#end()
-
-
-"--------------  EASYMOTION ---------------------------------------------
-
+"-- easymotion
 " Disable default mappings
 let g:EasyMotion_do_mapping = 0 
 
@@ -108,11 +68,16 @@ let g:EasyMotion_smartcase = 1
 
 map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
+" These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
+" Without these mappings, `n` & `N` works fine. (These mappings just provide
+" different highlight method and have some other features )
+" nmap  n <Plug>(easymotion-next)
+" nmap  N <Plug>(easymotion-prev)
 
-nmap s <Plug>(easymotion-s2)
-nmap t <Plug>(easymotion-t2)
+" 2 char searches
+nmap m <Plug>(easymotion-s2)
+" word mapping
+nmap <s-m> :nohl<cr>
 
 highlight EasyMotionMoveHLDefault cterm=bold ctermfg=208 ctermbg=234 guifg=Blue guibg=Yellow cterm=underline
 let g:EasyMotion_do_shade = 0
@@ -122,55 +87,48 @@ highlight EasyMotionTarget2FirstDefault 	ctermfg=205 cterm=bold
 highlight EasyMotionTarget2First 		ctermfg=205 cterm=bold
 highlight EasyMotionTarget2SecondDefault 	ctermfg=205 cterm=bold
 highlight EasyMotionTarget2Second 		ctermfg=205 cterm=bold
-"--------------  EASYMOTION ---------------------------------------------
 
-" FZF & ag
-function! s:root()
-  return systemlist('git rev-parse --show-toplevel')[0]
-endfunction
+"-- CLAP"
+"let g:clap_provider_grep_delay = 50
+let g:clap_provider_grep_opts = '-H --no-heading --vimgrep --smart-case --hidden -g "!.git/"'
 
-function! s:with_git_root()
-  return v:shell_error ? {} : {'dir': s:root()}
-endfunction
+nnoremap <leader>* :Clap grep ++query=<cword><cr>
+nnoremap <leader>fg :Clap grep<cr>
+nnoremap <leader>ff :Clap files --hidden<cr>
+nnoremap <leader>fb :Clap buffers<cr>
+nnoremap <leader>fw :Clap windows<cr>
+nnoremap <leader>fr :Clap history<cr>
+nnoremap <leader>fh :Clap command_history<cr>
+nnoremap <leader>fj :Clap jumps<cr>
+nnoremap <leader>fl :Clap blines<cr>
+nnoremap <leader>fL :Clap lines<cr>
+nnoremap <leader>ft :Clap filetypes<cr>
+nnoremap <leader>fm :Clap marks<cr>
 
-let g:fzf_layout = { 'down': '~40%' }
+" -- overrides for vim-better-defaults
+runtime! plugin/default.vim
+set scrolljump=1   " Line to scroll when cursor leaves screen
+set shiftwidth=2   " Use indents of 4 spaces
+set tabstop=2      " An indentation every four columns
+set softtabstop=2  " Let backspace delete indent
+let g:vim_better_default_tabs_as_spaces = 1
 
-function! s:file_names()
-   call fzf#vim#files(s:root(), g:fzf_layout)
-endfunction
+" -- don't copy delted or yanked text
+nnoremap x "_x
 
-"use when output contains file path and position in file
-function! s:ag_custom(args)
-  call fzf#vim#grep('ag --nogroup --column --color '.a:args, 1, extend(s:with_git_root(), g:fzf_layout))
-endfunction
+nnoremap d "_d
+nnoremap D "_D
+vnoremap d "_d
 
-autocmd VimEnter * command! -nargs=* -bang FindByFileNames call s:file_names()
-autocmd VimEnter * command! -nargs=* -bang AgCustom call s:ag_custom(<q-args>)
+nnoremap c "_c
+nnoremap C "_C
+vnoremap c "_c
 
-" find word under cursor
-nnoremap <C-k> :AgCustom <C-R><C-W><CR>
+nnoremap <leader>d ""d
+nnoremap <leader>D ""D
+vnoremap <leader>d ""d
 
-" find word typed in.
-nnoremap <F3> :AgCustom <Space>
-
-" find word typed in match file names only.
-nnoremap <C-f> :FindByFileNames <CR>
-
-" find open buffer
-nnoremap <F4> :Buffers <CR>
-
-
-
-function! ClipboardYank()
-  call system('xclip -i -selection clipboard', @@)
-endfunction
-function! ClipboardPaste()
-  let @@ = system('xclip -o -selection clipboard')
-endfunction
-
-vnoremap <silent> y y:call ClipboardYank()<cr>
-nnoremap yy yy:call ClipboardYank()<cr>
-nnoremap <silent> p :call ClipboardPaste()<cr>p
-
-
+nnoremap <leader>c ""c
+nnoremap <leader>C ""C
+vnoremap <leader>c ""c
 
