@@ -12,6 +12,6 @@ done < <(find /home/cvdb/projects 2>/dev/null -maxdepth 4 -type d -name .git -pr
 choice=$(echo -e "$dirlist" | rofi -dmenu)
 export NO_AT_BRIDGE=1
 
-[[ ! -z "$choice" ]] && urxvt -e /bin/sh -c "cd ${gitdic["$choice"]} && /bin/bash"
+[[ ! -z "$choice" ]] && termite -d ${gitdic["$choice"]} -t $choice
 
 

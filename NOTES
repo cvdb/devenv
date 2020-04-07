@@ -1,0 +1,29 @@
+Steps to setup ENV
+-------------------
+sudo pacmann -S vifm
+sudo pacman -S git
+clone google chrome from https://aur.archlinux.org/packages/google-chrome/
+make chrome install package makepkg -s
+install with sudo pacman -U google-chrome-63.0.3239.108-1-x86_64.pkg.tar.xz
+sudo pacman -S termite
+copy over i3 config
+copy over termite config
+copy over vifm config
+reload i3 config mod+SHIFT+c
+sudo pacman -S neovim
+sudo pacman -S python-pynvim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+:PlugInstall
+:UpdateRemotePlugins
+sudo pacman -S rofi
+copy over rofi config
+sudo cp gotorepo /usr/local/bin/
+copy xinit & git aliases
+xmodmap -pke > ~/.Xmodmap
+keycode 105 = Control_R End Control_R End
+keycode 108 = Alt_R Home Alt_R Home
+
+
+
+
